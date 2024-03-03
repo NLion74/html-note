@@ -30,6 +30,8 @@ def create_note(note_title, note_html):
             f"{html_base_content[1]}"
         )
 
+    print("html_note successfully created")
+
 
 def fetch_note_title(markdown_note_path):
     """
