@@ -26,7 +26,7 @@ setup(
     license=about["license"],
     zip_safe=True,
     entry_points={
-        "console_scripts": ["html=html_note.entry_points:main"],
+        "console_scripts": ["html_note=html_note.entry_points:main"],
     },
     classifiers=[
         "Programming Language :: Python :: 3",
