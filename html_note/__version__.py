@@ -1,4 +1,4 @@
-title = "html-note"
+title = "html_note"
 description = "A minimal python package for creating html notes with markdown"
 version = "0.1.0"
 author = "NLion74"

@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 about = {}
 dir = os.path.abspath(os.path.dirname(__file__))
-with open(os.path.join(dir, 'html-note', '__version__.py')) as f:
+with open(os.path.join(dir, 'html_note', '__version__.py')) as f:
     exec(f.read(), about)
 
 with open('README.md', 'r') as f:
@@ -26,7 +26,7 @@ setup(
     license=about["license"],
     zip_safe=True,
     entry_points={
-        "console_scripts": ["html=html-note.entry_points:main"],
+        "console_scripts": ["html=html_note.entry_points:main"],
     },
     classifiers=[
         "Programming Language :: Python :: 3",
