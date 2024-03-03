@@ -1,0 +1,15 @@
+# visual studio code
+.vscode/
+
+# Pycharm
+.idea/
+
+# python
+venv/
+virtualenv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/

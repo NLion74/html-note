@@ -1,0 +1,7 @@
+title = "html-note"
+description = "A minimal python package for creating html notes with markdown"
+version = "0.1.0"
+author = "NLion74"
+author_email = "nlion@nlion.nl"
+license = "Unlicense"
+url = "https://github.com/NLion74/Html-Note-Generator"
