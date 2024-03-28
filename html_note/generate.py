@@ -1,4 +1,4 @@
-import markdown
+import mistune
 try:
     import importlib.resources
 except ImportError:
@@ -44,6 +44,6 @@ def fetch_note_title(markdown_note_path):
 
 
 def convert_html(markdown_note):
-    note_html = markdown.markdown(open(markdown_note, "r").read())
+    note_html = mistune.html(open(markdown_note, "r").read())
     return note_html
 
